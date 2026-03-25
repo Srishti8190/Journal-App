@@ -11,7 +11,8 @@ import java.util.Map;
 @RestController
 @RequestMapping("/journal")
 public class JournalEntryController {
-
+    
+    //here we are using map to store the data 
     private Map<Long, JournalEntry> journalEntries = new HashMap<>();
 
     @GetMapping
